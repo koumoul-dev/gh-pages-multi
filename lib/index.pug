@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+ head
+   title= title
+   link(href='https://fonts.googleapis.com/css?family=Nunito', rel='stylesheet')
+   style(type='text/css').
+    body {
+      font-family: 'Nunito', sans-serif;
+      color: rgba(0, 0, 0, 0.87);
+      background-color: #FAFAFA;
+    }
+    h1 {
+      font-size: 45px;
+      font-weight: 500;
+      text-align: center;
+    }
+    li {
+      list-style-type: none;
+      text-align: center;
+    }
+ body
+   h1= title
+   ul
+    each dir in dirs
+      li
+        a(href='./' + dir)= dir

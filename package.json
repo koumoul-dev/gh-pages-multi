@@ -1,0 +1,46 @@
+{
+  "name": "gh-pages-multi",
+  "version": "0.1.0",
+  "description": "Simply push files to gh-pages on github and manage subdirectories. Easy way to publish documentation for multiple versions of a project for example.",
+  "main": "lib",
+  "bin": {
+    "gh-pages-multi": "bin/gh-pages-multi.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albanm/gh-pages-multi.git"
+  },
+  "keywords": [
+    "gh-pages",
+    "deploy",
+    "multiple",
+    "versions"
+  ],
+  "author": "Alban Mouton <alban.mouton@koumoul.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albanm/gh-pages-multi/issues"
+  },
+  "homepage": "https://github.com/albanm/gh-pages-multi#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "debug": "^3.1.0",
+    "ncp": "^2.0.0",
+    "pug": "^2.0.3",
+    "remote-origin-url": "^1.0.0",
+    "rimraf": "^2.6.2",
+    "tmp-promise": "^1.0.5"
+  }
+}
