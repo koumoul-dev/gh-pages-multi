@@ -16,7 +16,7 @@ Push the 'dist' directory into the gh-pages branch of the current repository in 
 
     gh-pages-multi deploy -s dist -t v1.0.0
 
-Push the 'docs' directory into the gh-pages branch ofthe current repository in a 'latest' subdirectory, and erase all previous history concerning 'latest'. Very useful to prevent bloating the git repo if the pushed content contains built files for example.
+Push the 'docs' directory into the gh-pages branch of the current repository in a 'latest' subdirectory, and erase all previous history concerning 'latest'. Very useful to prevent bloating the git repo if the pushed content contains built files for example.
 
     gh-pages-multi deploy --no-history
 
