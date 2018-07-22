@@ -1,6 +1,6 @@
 # gh-pages-multi
 
-Simply push files to gh-pages on github and manage subdirectories. Easy way to publish documentation for multiple versions of a project for example.
+Simply push files to gh-pages on github and manage subdirectories. Also create a index.html file listing subdirectories as root. Easy way to publish documentation for multiple versions of a project for example.
 
     npm i -g gh-pages-multi
 
