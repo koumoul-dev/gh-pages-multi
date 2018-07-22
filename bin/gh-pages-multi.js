@@ -16,8 +16,9 @@ program
   .option('-t, --target [target]', 'The target directory that will be created or overwritten in the remote branch.', 'latest')
   .option('-r, --remote [remote]', 'The remote git repository to push to.', remote)
   .option('-b, --branch [branch]', 'The branch to push to. WARNING: this branch history will be overwritten.', 'gh-pages')
-  .option('-t, --template [template]', 'The pug template to use to generate the index.hml file.', path.join(__dirname, '../lib/index.pug'))
+  .option('--template [template]', 'The pug template to use to generate the index.hml file.', path.join(__dirname, '../lib/index.pug'))
   .option('--title [title]', 'The title of the generated index.html.', remote ? remote.split('/').pop().replace('.git', '') : 'gh-pages-multi')
+  .option('--no-history', 'Erase the history of the modified directory. Useful when re-creating multiple times a quite large directory with built files for example.')
   .option('--dry-run', 'Keep the cloned repository instead of cleaning it and do not push result to remote.')
   .option('-v, --verbose')
   .action(function (options) {
