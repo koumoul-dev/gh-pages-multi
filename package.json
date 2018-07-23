@@ -1,6 +1,6 @@
 {
   "name": "@koumoul/gh-pages-multi",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Simply push files to gh-pages on github and manage subdirectories. Easy way to publish documentation for multiple versions of a project for example.",
   "main": "lib",
   "bin": {
