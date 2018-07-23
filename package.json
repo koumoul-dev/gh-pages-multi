@@ -1,5 +1,5 @@
 {
-  "name": "gh-pages-multi",
+  "name": "@koumoul/gh-pages-multi",
   "version": "0.2.0",
   "description": "Simply push files to gh-pages on github and manage subdirectories. Easy way to publish documentation for multiple versions of a project for example.",
   "main": "lib",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/albanm/gh-pages-multi.git"
+    "url": "git+https://github.com/koumoul-dev/gh-pages-multi.git"
   },
   "keywords": [
     "gh-pages",
@@ -23,9 +23,9 @@
   "author": "Alban Mouton <alban.mouton@koumoul.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/albanm/gh-pages-multi/issues"
+    "url": "https://github.com/koumoul-dev/gh-pages-multi/issues"
   },
-  "homepage": "https://github.com/albanm/gh-pages-multi#readme",
+  "homepage": "https://github.com/koumoul-dev/gh-pages-multi#readme",
   "devDependencies": {
     "eslint": "^5.1.0",
     "eslint-config-standard": "^11.0.0",

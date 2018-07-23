@@ -2,11 +2,11 @@
 
 Simply push files to gh-pages on github and manage subdirectories. Also create a index.html file listing subdirectories as root. Easy way to publish documentation for multiple versions of a project for example.
 
-    npm i -g gh-pages-multi
+    npm i -g @koumoul/gh-pages-multi
 
 ## Examples
 
-Check out the [gh-pages publication for this repo](https://albanm.github.io/gh-pages-multi/) as an example of generated index.html.
+Check out the [gh-pages publication for this repo](https://koumoul-dev.github.io/gh-pages-multi/) as an example of generated index.html.
 
 Push the 'docs' directory into the gh-pages branch of the current repository in a 'latest' subdirectory.
 
