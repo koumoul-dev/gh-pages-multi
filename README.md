@@ -20,6 +20,10 @@ Push the 'docs' directory into the gh-pages branch of the current repository in 
 
     gh-pages-multi deploy --no-history
 
+Propose a better target directory name from a branch/tag name.
+
+    gh-pages-multi better-target v2.0.0
+
 Show help.
 
     gh-pages-multi --help
