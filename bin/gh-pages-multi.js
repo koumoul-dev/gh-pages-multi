@@ -19,6 +19,7 @@ program
   .option('--template [template]', 'The pug template to use to generate the index.hml file.', path.join(__dirname, '../lib/index.pug'))
   .option('--title [title]', 'The title of the generated index.html.', remote ? remote.split('/').pop().replace('.git', '') : 'gh-pages-multi')
   .option('--no-history', 'Erase the history of the modified directory. Useful when re-creating multiple times a quite large directory with built files for example.')
+  .option('--better-target', 'Try to improve the target directory passed as --target parameter. "master" becomes "latest", "1.1.0" becomes "1.x", etc.')
   .option('--dry-run', 'Keep the cloned repository instead of cleaning it and do not push result to remote.')
   .option('-v, --verbose')
   .action(function (options) {
@@ -39,11 +40,3 @@ function cbError (err) {
   console.error(err)
   process.exit(1)
 }
-
-/*
-ghPagesMulti({src: process.argv[2], target: process.argv[3], branch: process.argv[4], template: process.argv[5], remote: process.argv[6]})
-  .then(() => process.exit(), (err) => {
-    console.error(err)
-    process.exit(1)
-  })
-*/
