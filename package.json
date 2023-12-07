@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -27,22 +27,18 @@
   },
   "homepage": "https://github.com/koumoul-dev/gh-pages-multi#readme",
   "devDependencies": {
-    "eslint": "^5.1.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0"
   },
   "dependencies": {
-    "commander": "^2.16.0",
-    "debug": "^3.1.0",
-    "git-url-parse": "^10.0.1",
+    "commander": "^11.1.0",
+    "debug": "^4.3.4",
+    "git-url-parse": "^13.1.1",
     "ncp": "^2.0.0",
-    "pug": "^2.0.3",
-    "remote-origin-url": "^1.0.0",
-    "rimraf": "^2.6.2",
-    "semver": "^5.5.0",
-    "tmp-promise": "^1.0.5"
+    "pug": "^3.0.2",
+    "remote-origin-url": "^2.0.0",
+    "rimraf": "^5.0.5",
+    "semver": "^7.5.4",
+    "tmp-promise": "^3.0.3"
   }
 }
