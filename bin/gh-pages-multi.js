@@ -4,7 +4,7 @@ const path = require('path')
 const program = require('commander')
 
 const packageInfo = require('../package')
-const remote = require('remote-origin-url').sync()
+const remote = require('../lib/origin-url')()
 
 program
   .version(packageInfo.version)
